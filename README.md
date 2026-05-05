@@ -17,3 +17,5 @@
 `npm install --save-dev --save-exact prettier` - установка Prettier для форматирования кода
 
 `npm install --save-dev eslint-config-prettier` - установка конфигурации Prettier в ESLint
+
+`npx mrm@2 lint-staged` - установка пре-коммит хука для автоматического форматирования кода с помощью Prettier и ESLint
