@@ -19,3 +19,7 @@
 `npm install --save-dev eslint-config-prettier` - установка конфигурации Prettier в ESLint
 
 `npx mrm@2 lint-staged` - установка пре-коммит хука для автоматического форматирования кода с помощью Prettier и ESLint
+
+`npm install --save-dev webpack webpack-cli` - установка Webpack
+
+`npm install --save-dev css-loader style-loader` - добавление поддержки CSS в Webpack
