@@ -9,7 +9,13 @@
 `npm install --save-dev jest-environment-jsdom` - установка окружения JSDOM для тестирования в браузере
 
 
-`npm init jest@latest` - базовая инициализация конфигурации Jest
+`npm init jest@latest` - инициализация базовой конфигурации Jest
 
 
 `npm install --save-dev babel-jest @babel/core @babel/preset-env` - установка Babel 
+
+
+`npm init @eslint/config@latest` - инициализация базовой конфигурации ESLint
+
+
+`npm install --save-dev eslint-plugin-jest` - подключение плагина Jest для ESLint
