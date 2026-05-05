@@ -15,8 +15,8 @@
   "type": "commonjs",
   "main": "index.mjs",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
+    "lint": "prettier --check . && eslint .",
+    "lint:fix": "prettier --write . && eslint --fix .",
     "test": "jest",
     "test:watch": "jest --watch"
   },
@@ -26,9 +26,11 @@
     "@eslint/js": "^10.0.1",
     "babel-jest": "^30.3.0",
     "eslint": "^10.3.0",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jest": "^29.15.2",
     "globals": "^17.6.0",
     "jest": "^30.3.0",
-    "jest-environment-jsdom": "^30.3.0"
+    "jest-environment-jsdom": "^30.3.0",
+    "prettier": "3.8.3"
   }
 }

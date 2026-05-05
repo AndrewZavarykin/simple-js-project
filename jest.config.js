@@ -15,16 +15,16 @@ const config = {
   // cacheDirectory: "/private/var/folders/4p/sryhqpxs1656dn4w70fplc8m0000gn/T/jest_dx",
 
   // Automatically clear mock calls, instances, contexts and results before every test
-clearMocks: true,
+  clearMocks: true,
 
   // Indicates whether the coverage information should be collected while executing the test
-collectCoverage: true,
+  collectCoverage: true,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
   // collectCoverageFrom: undefined,
 
   // The directory where Jest should output its coverage files
-coverageDirectory: "coverage",
+  coverageDirectory: "coverage",
 
   // An array of regexp pattern strings used to skip coverage collection
   // coveragePathIgnorePatterns: [
@@ -32,7 +32,7 @@ coverageDirectory: "coverage",
   // ],
 
   // Indicates which provider should be used to instrument code for coverage
-coverageProvider: "v8",
+  coverageProvider: "v8",
 
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [
@@ -147,7 +147,7 @@ coverageProvider: "v8",
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-testEnvironment: "jsdom",
+  testEnvironment: "jsdom",
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
