@@ -14,7 +14,7 @@
   "author": "",
   "type": "module",
   "main": "index.js",
-  "private": "true",
+  "private": true,
   "scripts": {
     "lint": "prettier --check . && eslint .",
     "lint:fix": "prettier --write . && eslint --fix .",
