@@ -23,3 +23,7 @@
 `npm install --save-dev webpack webpack-cli` - установка Webpack
 
 `npm install --save-dev css-loader style-loader` - добавление поддержки CSS в Webpack
+
+`npm install --save-dev html-webpack-plugin` - установка плагина для создания HTML в dist
+
+`npm install --save-dev webpack-dev-server` - установка сервера разработки Webpack

@@ -21,7 +21,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "prepare": "husky install",
-    "build": "webpack"
+    "build": "webpack",
+    "develop": "webpack serve"
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
@@ -33,6 +34,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jest": "^29.15.2",
     "globals": "^17.6.0",
+    "html-webpack-plugin": "^5.6.7",
     "husky": "^9.1.7",
     "jest": "^30.3.0",
     "jest-environment-jsdom": "^30.3.0",
@@ -40,7 +42,8 @@
     "prettier": "3.8.3",
     "style-loader": "^4.0.0",
     "webpack": "^5.106.2",
-    "webpack-cli": "^7.0.2"
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.3"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
